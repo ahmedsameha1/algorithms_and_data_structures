@@ -1,0 +1,4 @@
+apply plugin: "java"
+apply plugin: "application"
+
+mainClassName = "com.ahmedsameha1.edx_algorithms_and_data_structures.selection_sort.selection_sort"
