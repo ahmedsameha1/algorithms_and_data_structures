@@ -10,12 +10,12 @@ public class TestLinearSearch {
     private LinearSearch linearSearch;
 
     @BeforeEach
-    private void setup() {
+    public void setup() {
         linearSearch = new LinearSearch();
     }
 
     @Test
-    private void test() {
+    public void test() {
         assertEquals(true, linearSearch.search(new int[] { 1, 3, 5 }, 5));
         assertEquals(false, linearSearch.search(new int[] { 1, 3, 5}, 7));
     }
