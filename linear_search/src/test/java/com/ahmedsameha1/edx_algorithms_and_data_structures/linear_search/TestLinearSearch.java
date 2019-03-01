@@ -16,7 +16,7 @@ public class TestLinearSearch {
 
     @Test
     public void test() {
-        assertEquals(true, linearSearch.search(new int[] { 1, 3, 5 }, 5));
-        assertEquals(false, linearSearch.search(new int[] { 1, 3, 5}, 7));
+        assertTrue(linearSearch.search(new int[] { 1, 3, 5 }, 5));
+        assertFalse(linearSearch.search(new int[] { 1, 3, 5}, 7));
     }
 }
