@@ -1,4 +1,5 @@
-const search = (arr, num) => {
+let n = 5;
+export default search = (arr, num) => {
     for ( let i = 0; i < arr.length; i++ ) {
         if ( arr[i] == num ) {
             return true;
@@ -7,4 +8,4 @@ const search = (arr, num) => {
     return false;
 };
 
-exports.search = search;
+//exports.search = search;
