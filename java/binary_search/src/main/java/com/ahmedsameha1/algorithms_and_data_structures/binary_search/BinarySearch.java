@@ -1,7 +1,7 @@
 package com.ahmedsameha1.algorithms_and_data_structures.binary_search;
 
 public class BinarySearch {
-    public boolean search(int[] arr, int num) {
+    public boolean search(int num, int... arr) {
         return search(arr, 0, arr.length - 1, num);
     }
 

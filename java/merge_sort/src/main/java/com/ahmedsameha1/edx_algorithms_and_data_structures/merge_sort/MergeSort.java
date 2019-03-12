@@ -3,7 +3,7 @@ package com.ahmedsameha1.edx_algorithms_and_data_structures.merge_sort;
 import java.util.Arrays;
 
 public class MergeSort {
-    public int[] sort(int[] arr) {
+    public int[] sort(int... arr) {
         if (arr.length < 2) {
             return arr;
         } else {

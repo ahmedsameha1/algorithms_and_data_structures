@@ -1,7 +1,7 @@
 package com.ahmedsameha1.edx_algorithms_and_data_structures.bubble_sort;
 
 public class BubbleSort {
-    public int[] sort(int[] arr) {
+    public int[] sort(int... arr) {
         boolean swap_done = true;
         while (swap_done) {
             swap_done = false;

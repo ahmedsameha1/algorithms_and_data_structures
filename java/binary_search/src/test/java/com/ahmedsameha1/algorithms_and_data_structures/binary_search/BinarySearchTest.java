@@ -16,10 +16,10 @@ public class BinarySearchTest {
 
     @Test
     public void test() {
-        assertTrue(binarySearch.search(new int[] {1, 3, 5}, 5));
-        assertTrue(binarySearch.search(new int[] {1, 3, 5}, 1));
-        assertFalse(binarySearch.search(new int[] {1, 3, 5}, 7));
-        assertFalse(binarySearch.search(new int[] {-536, -66, -1, 1, 3, 5, 100, 1754}, 7));
-        assertTrue(binarySearch.search(new int[] {-536, -66, -1, 1, 3, 5, 100, 1754}, -66));
+        assertTrue(binarySearch.search(5, 1, 3, 5));
+        assertTrue(binarySearch.search(1, 1, 3, 5));
+        assertFalse(binarySearch.search(7, 1, 3, 5));
+        assertFalse(binarySearch.search(7, -536, -66, -1, 1, 3, 5, 100, 1754));
+        assertTrue(binarySearch.search(-66,-536, -66, -1, 1, 3, 5, 100, 1754));
     }
 }
