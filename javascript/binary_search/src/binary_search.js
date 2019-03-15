@@ -4,7 +4,7 @@ const search = (arr, num) => {
 
 const search_recursive = (arr, start, end, num) => {
     let median = Math.floor((start + end) / 2);
-    if ( arr[median] == num) {
+    if ( arr[median] === num) {
         return true;
     } else if (end - start < 1) {
         return false;
