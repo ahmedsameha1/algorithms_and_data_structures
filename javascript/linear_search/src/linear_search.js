@@ -1,6 +1,6 @@
 const search = (arr, num) => {
-    for ( let i = 0; i < arr.length; i++ ) {
-        if ( arr[i] === num ) {
+    for ( let i of arr ) {
+        if ( i === num ) {
             return true;
         }
     }
