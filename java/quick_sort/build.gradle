@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+repositories.jcenter()
+
+test.useJUnitPlatform()
+
+// Copied from: https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.4.0'
+}
